@@ -1,0 +1,1407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5c7eff"
+    android:orientation="vertical" >
+	
+    <TableLayout
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_weight="@string/row_weight" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8" >
+
+            <TextView
+                android:id="@+id/result"
+                style="@android:style/TextAppearance.DeviceDefault.Medium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:text="@string/sum"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/menu_butt" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+        </RelativeLayout>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_below="@+id/tableRow1"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="@string/row_weight" >
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout00"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame00"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask00"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp00"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout01"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout02"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout03"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame03"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask03"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp03"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout04"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame04"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask04"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp04"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+        </RelativeLayout>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow01"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_below="@+id/tableRow2"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="@string/row_weight" >
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout13"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow02"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_alignLeft="@+id/TableRow01"
+        android:layout_below="@+id/TableRow01"
+        android:layout_weight="@string/row_weight" >
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout20"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout21"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout22"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout23"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame23"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask23"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp23"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout24"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame24"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask24"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp24"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow03"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_alignLeft="@+id/TableRow02"
+        android:layout_below="@+id/TableRow02"
+        android:layout_weight="@string/row_weight" >
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout30"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame30"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask30"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp30"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout31"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame31"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask31"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp31"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout32"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame32"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask32"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp32"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout33"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame33"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask33"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp33"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout34"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame34"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask34"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp34"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow04"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_alignLeft="@+id/TableRow03"
+        android:layout_below="@+id/TableRow03"
+        android:layout_weight="@string/row_weight" >
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout40"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame40"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask40"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp40"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout41"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame41"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask41"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp41"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout42"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame42"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask42"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp42"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout43"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame43"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask43"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp43"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout44"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame44"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask44"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp44"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow05"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_alignLeft="@+id/TableRow04"
+        android:layout_below="@+id/TableRow04"
+        android:layout_weight="@string/row_weight" >
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout50"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame50"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask50"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp50"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout51"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame51"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask51"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp51"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout52"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame52"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask52"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp52"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout53"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame53"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask53"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp53"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/gbtnLayout54"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/gbtnFrame54"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+
+            <ImageView
+                android:id="@+id/gbtnMask54"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/mask" />
+
+            <ImageView
+                android:id="@+id/gbtnMakeUp54"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/makeup" />
+
+            <TextView
+                android:id="@+id/gbtnTxt54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow06"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_alignLeft="@+id/TableRow05"
+        android:layout_below="@+id/TableRow05"
+        android:layout_weight="@string/row_weight" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:text="0:0.0"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:id="@+id/ImageView03"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/refresh"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2" >
+
+            <ImageView
+                android:id="@+id/imgv"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/refresh" />
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/button" />
+        </RelativeLayout>
+    </TableRow>
+    </TableLayout>
+
+    <RelativeLayout
+        android:id="@+id/tapbtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/tlo" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/button" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="99dp"
+            android:text="TAP TO START"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/currentModeDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/currentScore"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="GAME"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/difficulty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/currentModeDisplay"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="LEVEL"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/currentScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:text="SCORE"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/scoreDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/currentScore"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/modeDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/currentModeDisplay"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/difficultyDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/difficulty"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="GREAT JOB!"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#79de1e"
+            android:textSize="30sp"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

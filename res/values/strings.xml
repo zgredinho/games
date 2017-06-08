@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Train Your Brain</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_gg">Gg</string>
+    <string name="title_activity_tyb">Tyb</string>
+    <string name="title_activity_engine">Engine</string>
+    <string name="title_activity_mainmenu">MainMenu</string>
+    <string name="title_activity_choosemenu">Choosemenu</string>
+    <string name="title_activity_game1">Game1</string>
+    <string name="title_activity_holdandrelease">Holdandrelease</string>
+    <string name="sum">asd</string>
+    <string name="row_weight">.125</string>
+
+</resources>
